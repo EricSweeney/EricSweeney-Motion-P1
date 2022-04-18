@@ -3,6 +3,13 @@
     grid-template-columns: auto 90% auto;
     grid-template-areas: ". content .";
     padding:64px 0;
+    h1{
+        font-family: 'Gruppo', cursive;
+    }
+    p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+    }
 
     @include md{
         padding:100px 0;

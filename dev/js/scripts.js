@@ -49,7 +49,7 @@ const mainTL = gsap.timeline();
  
 mainTL.from(".n1", {duration:3, x:1500}, "out")
 mainTL.from(".northlane", {duration:3, opacity:0}, "out")
-mainTL.from(".n3", {duration:3, opacity:0})
+mainTL.from(".n3", {duration:3, opacity:0, y:450})
 
 
 ;

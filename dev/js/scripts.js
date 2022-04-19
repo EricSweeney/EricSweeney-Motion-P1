@@ -47,8 +47,9 @@ import { gsap } from "gsap";
 
 const mainTL = gsap.timeline();
  
-mainTL.from(".n1", {duration:2, rotate:4320}, "out")
+mainTL.from(".n1", {duration:3, x:1500}, "out")
 mainTL.from(".northlane", {duration:3, opacity:0}, "out")
+mainTL.from(".n3", {duration:3, opacity:0})
 
 
 ;
